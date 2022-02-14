@@ -1,0 +1,17 @@
+{
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+        "node_modules/"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "<rootDir>/components/**/*.ts(x)?"
+    ],
+    "setupFilesAfterEnv": [
+        "<rootDir>/.jest/setup.ts"
+    ],
+    "modulePaths": [
+        "<rootDir>",
+        "<rootDir>/.jest"
+    ]
+}
